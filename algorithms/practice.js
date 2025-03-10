@@ -35,10 +35,8 @@ for (let i = 0; i < nums.length; i++) {
           nums[i] + nums[j]
         } `
       );
-      if (result == target) {
-        flag = true;
-        break;
-      }
+      flag = true;
+      break;
     }
   }
   if (flag) break;
